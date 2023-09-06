@@ -1,2 +1,1 @@
-# Python
-bot
+# Python RSS bot
