@@ -1,6 +1,6 @@
 import telebot
 import gc
-bot = telebot.TeleBot('5312788439:AAEkOv2wggJmXMveCEN9mA5dVoaTfLxjs1w')
+bot = telebot.TeleBot('token')
 @bot.message_handler(commands=['start'])
 def handle_start(message):
     bot.reply_to(message,'Грузи')
